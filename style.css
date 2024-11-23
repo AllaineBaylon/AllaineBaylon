@@ -140,6 +140,42 @@ nav a:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+.circular_image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: blue;
+  /* commented for demo
+  float: left;
+  margin-left: 125px;
+  margin-top: 20px;
+  */
+  
+  /*for demo*/
+  display:inline-block;
+  vertical-align:middle;
+}
+.circular_image img{
+  width:100%;
+}
+
+.additional-image {
+  display: block; /* Make the image a block element */
+  margin: 20px auto; /* Center the image and add vertical spacing */
+  max-width: 80%; /* Set a maximum width for the image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.image-container {
+  margin: 20px 0; /* Add spacing around the image */
+}
+
+.center-image {
+  max-width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
 .about h2 {
   font-family: 'Agraham';
   color: #ff69b4;
