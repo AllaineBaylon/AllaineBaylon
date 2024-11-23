@@ -142,7 +142,7 @@ nav a:hover {
 
 .circular_image {
   width: 200px;
-  height: 100px;
+  height: 200px;
   border-radius: 50%;
   overflow: hidden;
   background-color: blue;
